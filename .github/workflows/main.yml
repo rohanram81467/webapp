@@ -1,5 +1,6 @@
 name: A workflow for my web app demo
 on: 
+  workflow_dispatch:
   push:
     paths:
       - './**'
