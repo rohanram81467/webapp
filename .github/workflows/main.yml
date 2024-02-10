@@ -1,0 +1,11 @@
+name: A workflow for my web app demo
+on: push
+jobs:
+  build-job:
+    name: Hello world action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      name: Check out code
+    - name: Print content
+      run: cat Index.html
