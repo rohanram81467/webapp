@@ -1,6 +1,8 @@
 name: A workflow for my web app demo
 on: 
   push:
+    branches:
+      - main
     paths:
       - '!.github/**'
       - './**'
